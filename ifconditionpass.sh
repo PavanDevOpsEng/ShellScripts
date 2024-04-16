@@ -12,7 +12,7 @@ echo "Enter the password"
 
 read -s password
 
-if [ $password="password" ]
+if [ $[password]="password" ]
 
 then 
 
