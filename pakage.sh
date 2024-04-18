@@ -12,6 +12,8 @@ VALIDATE ()
 
     else 
     echo "$2..Failure"
+
+    fi
 }
 
 
