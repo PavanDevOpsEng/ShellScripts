@@ -20,5 +20,5 @@ echo "Installation failed"
 exit 1
 
 else
-echo "Installtion sucess"
+echo "Installtion success"
 fi 
