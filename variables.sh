@@ -1,13 +1,7 @@
 #!/bin/bash
 
-#Declaring the variables from the Cmd
+#Accessing the variables in an array
 
-PERSON1=$1
-PERSON2=$2
+Movies=("RRR" "DJ TILLU" "One")
 
-# Refering the variable 
-
-echo "Hello $PERSON1"
-
-echo "Heelo $PERSON2"
-
+echo "Print Movie at Index 0 :: ${Movies[0]}
