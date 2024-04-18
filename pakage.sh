@@ -2,6 +2,19 @@
 USERID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
 
+VALIDATE ()
+{
+    if [ $1 -ne 0 ]
+
+    then 
+    ehco "$2..Success"
+    exit 1 
+
+    else 
+    echo "$2..Failure"
+}
+
+
 if [ $USERID -ne 0 ]
 then 
 echo "You are not a super user" 
@@ -13,12 +26,4 @@ echo "You are a super user.."
 fi
 
 dnf install mysql -y
-
-if [ $? -ne 0 ]
-then 
-echo "Installation failed"
-exit 1
-
-else
-echo "Installtion success"
-fi 
+VALIDATE $? "Installing MySQL"
