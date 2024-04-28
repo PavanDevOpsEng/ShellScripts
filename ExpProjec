@@ -1,0 +1,22 @@
+- Create an EC2 instance by selecting the AMI ( devops-practice)
+username and password based
+---------------------------
+RHEL9 -> Latest redhat enterprise OS
+CentOS 9
+RHEL9 == CentOS9
+
+ec2-user
+DevOps321
+AMI --> devops-practice --> us-east-1 region
+
+$ ssh ec2-user@3.92.185.67
+$ password : DevOps321
+
+## 
+Installing My SQL : 
+
+Install MySQL Server 8.0.x
+
+Yum and Dnf both are same so , from RHL 9 we are using insted of Yum 
+
+dnf install mysql-server -y

@@ -1,0 +1,9 @@
+---
+name: pavan
+dob: June-17-1990
+addresses:
+- adresses line1: Suryapet
+  adrrsess line2: Nalgond
+- adresses line3: Suryapet
+  adrrsess line4: Nalgond
+gender: male

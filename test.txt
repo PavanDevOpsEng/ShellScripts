@@ -1,0 +1,5 @@
+Kichen 12000 Done
+Sink	8500	No
+Parryware	24000	Done
+Bathroom 9000	Done
+Kichen 7000	No
